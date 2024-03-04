@@ -2204,6 +2204,8 @@ p {
 }
 
 .team-section .team-slider-wrapper .team-active .single-team .team-img {
+	height=250px; 
+	width=20px;
   border-radius: 20px 20px 0 0;
   position: relative;
 }
@@ -2385,9 +2387,10 @@ p {
 }
 
 .blog-section .single-blog .blog-img a img {
-  width: 100%;
-  -webkit-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
+	width: 370px;
+	height: 278px;
+    -webkit-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
 }
 
 .blog-section .single-blog .blog-content h4 {
@@ -2399,6 +2402,7 @@ p {
 }
 
 .blog-section .single-blog .blog-content p {
+  text-align: justify;
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 20px;

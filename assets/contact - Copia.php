@@ -23,10 +23,10 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "daniele.spinelli@unimib.it";
+        $recipient = "paolo.berta@unimib.it";
 
         // Set the email subject.
-        $subject = "[RETIN] New contact from $name";
+        $subject = "New [RETIN] contact from $name";
 
         // Build the email content.
         $email_content = "Full Name: $name\n";
